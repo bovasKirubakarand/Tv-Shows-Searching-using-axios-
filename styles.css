@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#tv img {
+    flex: 0 0 auto;
+    margin: 2px;
+    margin-left: 5px;
+    max-width: 90%;
+    height: auto;
+}
+
+.btn1 {
+    color: #000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #3498db;
+    color: #ffff
+}
+
+.btn2 {
+    color: #000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+    background-color: #f45959;
+    color: #ffff
+}
+
+#searchform {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    color: #000;
+    border-radius: 5px;
+}
